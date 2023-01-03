@@ -17,10 +17,8 @@ p,li {
 }
 
 /*Barra de navegação*/
-
-header, .navbar {
-  background-color: rgb(5, 5, 5); 
-  /*background-color: #353d41;*/
+header, .navbar { 
+  background-color: #353d41
 }
 
 #nav-container {
@@ -29,13 +27,12 @@ header, .navbar {
 }
 
 #logo{
-  width: 50px;
+  width: 75px;
 }
 
 .navbar-brand{
-  padding: 0;
-  color: rgb(2, 2, 2);
-  /* color: #FFF;*/
+  padding: 0;  
+  color: #FFF;
 }
 
 .navbar-brand:hover{
@@ -43,15 +40,13 @@ header, .navbar {
 }
 
 #navbar-links a{
-  color: rgb(2, 2, 2);
-  /* color: #FFF;*/
+   color: #FFF;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem .8rem;
 }
 
 /*Slider*/
-
 .container-fluid{
   padding: 0;
 }
@@ -187,7 +182,7 @@ header, .navbar {
   /* responsive*/
 
 @media(max-width: 768px){
-  //*geral*/ 
+  /*geral*/ 
 .container {
   padding: 20px 0;
 }
