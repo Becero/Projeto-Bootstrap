@@ -183,3 +183,19 @@ header, .navbar {
   font-size: 26px;
   margin-top: 20px;
 }
+
+  /* responsive*/
+
+@media(max-width: 768px){
+  //*geral*/ 
+.container {
+  padding: 20px 0;
+}
+
+  /*Slider*/
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+  height: auto;
+
+}
+  
+}
