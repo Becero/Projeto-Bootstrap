@@ -91,7 +91,6 @@ header, .navbar {
 }
 
 /*Sobre o Cartorio*/
-
 #about-area{
   background-color: #F9F9F9;
 }
@@ -131,7 +130,6 @@ header, .navbar {
 }
 
 /*Serviços*/
-
 .service-box {
   text-align: center;
   margin-bottom: 50px;
@@ -161,7 +159,6 @@ header, .navbar {
 }
 
 /*Dados*/
-
 .circle-box div{
   padding: 0 40px;
 
@@ -179,8 +176,80 @@ header, .navbar {
   margin-top: 20px;
 }
 
-  /* responsive*/
+/*Footer*/
+#contact-area {
+  text-align: center; 
+}
 
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i{
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p{
+  font-size: 16px;
+}
+
+.contact-title{
+  font-weight: bold;
+  color: #3ec1d5;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type ="text"], #contact-form input[type="email"], #contact-form textarea{
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#contact-form .main-btn{
+  width: 120px;
+  height: 50px;
+}
+
+#contact-form .main-btn:hover{
+  color: #3ec1d5;
+}
+
+/*Copy*/
+#copy-area{
+  background-color: #f1f1f1;  
+}
+
+#copy-area .container{
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover{
+  text-decoration: none;
+  color: #3ec1d5;
+}
+
+  /* Responsive*/
 @media(max-width: 768px){
   /*geral*/ 
 .container {
@@ -218,9 +287,4 @@ margin-bottom: 40px;
 #data-area p{
   font-size: 16px;
 }
-
-  /*team*/
-
-
-
 }
