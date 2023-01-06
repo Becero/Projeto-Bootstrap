@@ -325,4 +325,10 @@ margin-bottom: 40px;
   .circle-box{
     width: 50%;
   }
+
+  /*Contact*/
+  .contact-box{
+    border: nome;
+    margin-bottom: 0;
+  }
 }
