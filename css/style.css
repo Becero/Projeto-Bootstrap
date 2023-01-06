@@ -328,7 +328,8 @@ margin-bottom: 40px;
 
   /*Contact*/
   .contact-box{
-    border: nome;
+    border: none;
     margin-bottom: 0;
   }
+
 }
