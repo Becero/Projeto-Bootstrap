@@ -318,6 +318,11 @@ margin-bottom: 40px;
   }
   #about-area img{
     margin-top: 0;
+    margin-bottom: 30px;
   }
 
+  /*Data*/
+  .circle-box{
+    width: 50%;
+  }
 }
