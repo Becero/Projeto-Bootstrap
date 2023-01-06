@@ -11,12 +11,10 @@ $(document).ready(function(){
         from: { color: '#AAA '},
         to: { color: '#65DAF9'},
 
-        step: function(state,circle){
-            
+        step: function(state,circle)
+        {
             circle.path.setAttribute('stroke',state.color);
-
             let value = Math.round(circle.value() * 60);
-
             circle.setText(value);
 
         }
@@ -33,36 +31,27 @@ $(document).ready(function(){
         from: { color: '#AAA '},
         to: { color: '#65DAF9'},
 
-        step: function(state,circle){
-            
+        step: function(state,circle){            
             circle.path.setAttribute('stroke',state.color);
-
             let value = Math.round(circle.value() * 254);
-
             circle.setText(value);
-
         }
 
   });
     
   let containerC = document.getElementById("circleC");
 
-  let circleC = new ProgressBar.Circle(containerC,{
-      
+  let circleC = new ProgressBar.Circle(containerC,{      
       color:'#64DAF9',
       strokeWidth: 8,
       duration: 2000,
       from: { color: '#AAA '},
       to: { color: '#65DAF9'},
-
-      step: function(state,circle){
-          
+      step: function(state,circle)
+      {          
           circle.path.setAttribute('stroke',state.color);
-
           let value = Math.round(circle.value() * 32);
-
           circle.setText(value);
-
       }
 
 });
@@ -80,11 +69,8 @@ let circleD = new ProgressBar.Circle(containerD,{
     step: function(state,circle){
         
         circle.path.setAttribute('stroke',state.color);
-
         let value = Math.round(circle.value() * 5243);
-
         circle.setText(value);
-
     }
 
 });
@@ -103,18 +89,24 @@ let circleD = new ProgressBar.Circle(containerD,{
             circleB.animate(1.0);
             circleC.animate(1.0);
             circleD.animate(1.0);
-
-            stop = 1;
-        
+            stop = 1;        
         }
-
     });
 
     //Parallax 
-    setTimeout(function() {
-        
-        $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
-    
+    setTimeout(function() {        
+        $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});    
     },250);
+
+    
+    //Scroll para seçoes
+
+    let navBtn=$('.nav-item');
+
+    let bannerSection = $('#mainSlider');
+    let aboutSection = $('#about-area');
+    let serviceSection = $('#services-area');
+    let contactSection = $('#contact-area');
+    
 
 });
