@@ -7,7 +7,7 @@ $(document).ready(function(){
     let bannerSection = $('#mainSlider');
     let aboutSection = $('#about-area');
     let serviceSection = $('#services-area');
-    let contactSection = $('#contact-area');
+    let contactSection = $('#contact-area');    
 
     let scrollTo='';
 
