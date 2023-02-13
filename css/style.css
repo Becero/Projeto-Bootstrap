@@ -3,17 +3,27 @@ body {
   font-family:'Roboto',sans-serif;
 }
 
+#lgpd{
+  text-align: center;
+}
+
+#alinhamento{
+
+margin: 30px;
+text-align: justify;
+}
 .row {
   margin: 0;
 }
 
 .container {
-  padding: 70px 0;
+  padding: 10px 0;
 }
 
 p,li {
   color: #444;
-  font-size: 14px;
+  font-size: 15px;
+  text-indent: 3ch;
 }
 
 /*Barra de navegação*/
@@ -132,8 +142,7 @@ header, .navbar {
 /*Serviços*/
 .service-box {
   text-align: center;
-  margin-bottom: 50px;
-
+  margin-bottom: 10px;
 }
 
 .service-box i, .service-box h4  {
@@ -156,24 +165,6 @@ header, .navbar {
 .service-box:hover > i, .service-box:hover > h4{
   color: #65DAF9;
 
-}
-
-/*Dados*/
-.circle-box div{
-  padding: 0 40px;
-
-}
-
-.progressbar-text{
-  font-weight: bold;
-  font-size: 32px;
-}
-
-#data-area p{
-  color: #FFF;
-  text-align: center;
-  font-size: 26px;
-  margin-top: 20px;
 }
 
 /*Footer*/
@@ -253,6 +244,7 @@ header, .navbar {
   /* Responsive*/
 @media(max-width: 768px){
   /*geral*/ 
+
 .container {
   padding: 20px 0;
 }
@@ -331,5 +323,4 @@ margin-bottom: 40px;
     border: none;
     margin-bottom: 0;
   }
-
 }
